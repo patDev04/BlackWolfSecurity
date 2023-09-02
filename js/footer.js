@@ -10,8 +10,7 @@ document.body.insertAdjacentHTML(
                         <div class="footer-logo-wrapper">
                         <img src="./images/LOGO.svg" alt="footer-logo" class="nav-logo" />
                         <p class="footer-text">
-                            If you hear the barking of dogs or the braying of donkeys at
-                            night, seek refuge in Allah for they see what you do not see.
+                            lorem ipusm hys lksy aysdu kfifo liy aty bhaftr kifyr lovnv 
                         </p>
                         </div>
                     </div>
