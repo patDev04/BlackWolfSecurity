@@ -174,11 +174,12 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   font-weight: 800;
-  font-size: max(70px, min(5vw, 76px));
+  font-size: max(60px, min(5vw, 76px));
   line-height: 1;
   letter-spacing: -0.05em;
   padding: 24px 0;
   position: relative;
+  text-transform: uppercase;
 }
 
 .bolder {
