@@ -9,9 +9,7 @@ document.body.insertAdjacentHTML(
                     <div class="footer-box">
                         <div class="footer-logo-wrapper">
                         <img src="./images/LOGO.svg" alt="footer-logo" class="nav-logo" />
-                        <p class="footer-text">
-                            lorem ipusm hys lksy aysdu kfifo liy aty bhaftr kifyr lovnv 
-                        </p>
+                        <p class="footer-slogan">Canine Vigilance, Human Assurance</p>
                         </div>
                     </div>
 
