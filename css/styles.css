@@ -5,7 +5,7 @@
   --page-header: 48px;
   --theme: #e9ba9b;
 
-  --raduis: 13px;
+  --raduis: 6px;
   --boarder: 0.5px rgb(47, 47, 47) solid;
   --geist-background: #000;
   --accents-2: #333;
@@ -253,6 +253,7 @@ nav {
 
 .about-intro {
   font-weight: 300;
+  font-size: 16px;
 }
 
 .more-btn {
@@ -282,8 +283,13 @@ nav {
   border-radius: var(--raduis);
   border: var(--boarder);
   width: 100%;
-  height: 40rem;
+  height: 30rem;
   object-fit: cover;
+}
+
+.video {
+  margin-top: 30px;
+  width: 100%;
 }
 
 /* -------about-page--------- */
@@ -343,7 +349,7 @@ nav {
 }
 
 .tab-content {
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -411,9 +417,29 @@ footer {
   font-size: var(--text2);
   color: #a4a4a4;
 }
+
+.small {
+  color: #333;
+}
 .footer-number {
   font-size: var(--text);
   color: #a4a4a4;
+}
+
+.insta {
+  color: #e9ba9b;
+  font-size: 14px;
+}
+
+.insta:hover {
+  text-decoration: underline;
+}
+
+.fa-instagram {
+  margin-right: 5px;
+  font-size: 20px;
+  top: 4px;
+  position: relative;
 }
 
 .credit {
@@ -441,7 +467,7 @@ footer {
     width: 60%;
   }
   .about-intro {
-    font-size: 17px;
+    font-size: 14px;
   }
 
   .vertical-container {
@@ -509,7 +535,7 @@ footer {
   }
 
   .about-intro {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .fa {
@@ -525,11 +551,13 @@ footer {
     margin-bottom: 2rem;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
     border: var(--boarder);
     position: fixed;
-    background: black;
+    background: var(--accents-1);
     z-index: 1;
+    padding: 6px 0;
+    border-top: none;
   }
 
   .tab-header {
