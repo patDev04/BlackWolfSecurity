@@ -26,6 +26,10 @@ document.body.insertAdjacentHTML(
                         <br />
                         <p class="footer-text">Working Hours:</p>
                         <p class="footer-text">Monday - Saturday 09:00 - 18:00</p>
+                        <br/>
+                        <br/>
+                        <p class="footer-text insta"><a href="https://www.instagram.com/blackwolfsecuritygroup/"><i class="fa-brands fa-instagram " style="color: #e9ba9b;"></i>@blackwolfsecuritygroup</a></p>
+
                     </div>
                 </div>
             </div>
@@ -33,8 +37,9 @@ document.body.insertAdjacentHTML(
     </footer>
     <main>
         <div class="credit">
-            <p class="footer-text">&#9400; 2023 Black Wolf Security</p>
-            <p class="footer-text"><a href="/">PatMayWebDev</a></p>
+            <p class="footer-text small">&#9400; 2023 Black Wolf Security</p>
+            <p class="footer-text small"><a href="/">PatMayWebDev</a></p>
+
         </div>
     </main>
 
